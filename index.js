@@ -1,3 +1,3 @@
-var api = require('./api');
+var api = require('./lib/api');
 
 module.exports = api;
