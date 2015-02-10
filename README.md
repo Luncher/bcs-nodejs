@@ -1,1 +1,1 @@
-# BCS Storage SDK for Node.js 
+# Baidu Cloud Storage SDK for Node.js 
