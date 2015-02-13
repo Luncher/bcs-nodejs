@@ -1,8 +1,8 @@
 var fs = require('fs');
 var BaiduStorage = require('./baidu_storage');
 
-BaiduStorage.login('SBWpDDhFAGF5WhyIaaYLK9p7', 
-	'ayCRZ0XwiLb1WGApQVqA4TzZaQzc4qLR', 'luncher2', function(userInfo) {
+BaiduStorage.login('your app id', 
+	'your app secret', 'your bucket name', function(userInfo) {
 		BaiduStorage.setUserInfo(userInfo);
 	}
 );
